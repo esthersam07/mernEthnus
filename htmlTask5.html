@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlTask5</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .container {
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .c1 {
+            text-align: center;
+            font-weight: bold;
+        }
+        .c2 input, .c2 textarea{
+            width: 97%;
+        }
+        .button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="conatiner">
+        <h1 style="color: blue; text-align: center;">Registration Form</h1>
+        <table border="1" style="margin-left:auto;margin-right:auto; width: 100%;">
+            <tr>
+                <td class="c1"><label>First Name</label></td>
+                <td class="c2"><input type="text"></label></td>
+            </tr>
+            <tr>
+                <td class="c1"><label>Last Name:</label></td>
+                <td class="c2"><input type="text"></label></td>
+            </tr>
+            <tr>
+                <td class="c1"><label>Email</label></td>
+                <td class="c2"><input type="email"></label></td>
+            </tr>
+            <tr>
+                <td class="c1"><label>Password</label></td>
+                <td class="c2"><input type="password"></label></td>
+            </tr>
+            <tr>
+                <td class="c1"><label> Re Password</label></td>
+                <td class="c2"><input type="password"></label></td>
+            </tr>
+            <tr>
+                <td class="c1"><label>Gender</label></td>
+                <td ><input type="radio">Male<br>
+                    <input type="radio">Female
+                </td>
+            </tr>
+            <tr>
+                <td class="c1"><label>Age:</label></td>
+                <td class="c2"><input type="number"></label></td>
+            </tr>
+            <tr>
+                <td class="c1"><label>Address:</label></td>
+                <td class="c2"><textarea rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td class="c1"><label>State</label></td>
+                <td class="c2"><input type="text"></label></td>
+            </tr>
+            <tr>
+                <td class="c1"><label>Country</label></td>
+                <td class="c2"><select>
+                        <option selected>choose your country</option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                        <option>Germany</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td class="c1">Languages Known</td>
+                <td ><input type="checkbox">English
+                    <input type="checkbox">Hindi
+                    <input type="checkbox">Kannada
+                    <input type="checkbox">Telugu
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" checked>Hereby I declare all the guven details are true</td>
+            </tr>
+            <tr style="text-align: right;">
+                <td colspan="2">
+                    <p>Log in to <a href="ethnus.com"> Ethnus</a> website</p>
+                </td>
+            </tr>
+        </table>
+        <div class="button">
+            <button type="button">Register</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
